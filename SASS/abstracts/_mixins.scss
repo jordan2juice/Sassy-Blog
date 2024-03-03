@@ -1,0 +1,46 @@
+// @mixin colors()
+// Colors are defined in the `_variables.scss` file
+@mixin colors() {
+  @each $color in $colors {
+    .text-#{$color} {
+      color: $color;
+    }
+    .bg-#{$color} {
+      background-color: $color;
+    }
+  }
+}
+
+// @mixin typography()
+// Typography rules are defined here and can
+@mixin typography() {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    margin: 0;
+  }
+}
+
+// @mixin layout()
+// Layout is handled by Flexbox
+
+@mixin layout() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// @mixin flexbox()
+// This mixin provides a shorthand for flexbox
+
+@mixin flexbox() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
