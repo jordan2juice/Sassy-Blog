@@ -1,18 +1,14 @@
 .header {
+  &__logo {
+    height: auto;
+    margin-right: 12px
+  }
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.header.logo {
-  display: flex;
-}
-
-.header.logo img {
-  width: 100px;
-}
-
-.nav {
+S
+nav {
   display: flex;
   align-items: center;
 }

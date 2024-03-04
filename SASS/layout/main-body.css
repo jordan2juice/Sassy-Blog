@@ -1,0 +1,39 @@
+.main__container {
+  background-color: rgba(0, 0, 128, 0.597);
+  background-image: url(../../images/background.jpg);
+  background-size: cover;
+  color: white;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.main__container h1 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .main__container h1 {
+    font-size: 1.5rem;
+  }
+}
+/* Style the input field with a round cornered border */
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem;
+}/*# sourceMappingURL=main-body.css.map */

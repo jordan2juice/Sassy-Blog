@@ -35,6 +35,11 @@
   align-items: center;
 }
 
+
+@include typography();
+@include layout( responsive = true) ;
+@include colors();
+
 // @mixin flexbox()
 // This mixin provides a shorthand for flexbox
 

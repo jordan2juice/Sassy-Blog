@@ -18,6 +18,20 @@ body {
   font-size: 14px;
 }
 
+p {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin: 0;
+}
+
 .p-1 {
   padding: 1rem;
 }
@@ -182,4 +196,145 @@ body {
 
 .rounded-tr {
   border-top-right-radius: 0.25rem;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #ffffff;
+  font-size: 1rem;
+  box-shadow: #545b62;
+  padding: 0.5rem 1rem;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #5a5e62;
+  border-color: #545b62;
+}
+
+.btn-secondary:focus,
+.btn-secondary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+/*! Buttons */
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .footer-links {
+    flex-direction: column;
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  height: auto;
+  margin-right: 12px;
+}
+
+S nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
+  margin-left: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.nav ul li a:active {
+  text-decoration: underline;
+}
+
+.main__container {
+  background-color: rgba(0, 0, 128, 0.597);
+  background-image: url(../../images/background.jpg);
+  background-size: cover;
+  color: white;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.main__container h1 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .main__container h1 {
+    font-size: 1.5rem;
+  }
+}
+/* Style the input field with a round cornered border */
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem;
 }/*# sourceMappingURL=main.css.map */
