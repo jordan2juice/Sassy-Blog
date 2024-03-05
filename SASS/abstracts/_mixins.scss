@@ -11,6 +11,12 @@
   }
 }
 
+@mixin input {
+  width: 100%;
+  height: 100px;
+  padding: 6px;
+}
+
 // @mixin typography()
 // Typography rules are defined here and can
 @mixin typography() {
@@ -34,11 +40,6 @@
   justify-content: center;
   align-items: center;
 }
-
-
-@include typography();
-@include layout( responsive = true) ;
-@include colors();
 
 // @mixin flexbox()
 // This mixin provides a shorthand for flexbox
