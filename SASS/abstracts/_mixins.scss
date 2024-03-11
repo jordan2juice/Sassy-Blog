@@ -1,14 +1,8 @@
 // @mixin colors()
 // Colors are defined in the `_variables.scss` file
 @mixin colors() {
-  @each $color in $colors {
-    .text-#{$color} {
-      color: $color;
-    }
-    .bg-#{$color} {
-      background-color: $color;
-    }
-  }
+  background-color: rgba(0, 0, 128, 0.597);
+  color: white;
 }
 
 @mixin input {
